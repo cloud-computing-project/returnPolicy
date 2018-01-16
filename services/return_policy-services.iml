@@ -82,7 +82,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.10" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-afterburner:2.8.10" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20171018" level="project" />
-    <orderEntry type="module" module-name="comments-models" />
+    <orderEntry type="module" module-name="return_policy-models" />
     <orderEntry type="library" name="Maven: com.kumuluz.ee:kumuluzee-core:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.kumuluz.ee:kumuluzee-jpa-eclipselink:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.kumuluz.ee:kumuluzee-jpa-common:2.4.1" level="project" />

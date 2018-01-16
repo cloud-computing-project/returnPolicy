@@ -55,7 +55,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.10" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-afterburner:2.8.10" level="project" />
-    <orderEntry type="module" module-name="comments-services" />
+    <orderEntry type="module" module-name="return_policy-services" />
     <orderEntry type="library" name="Maven: com.kumuluz.ee:kumuluzee-cdi-weld:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: javax.enterprise:cdi-api:1.2" level="project" />
     <orderEntry type="library" name="Maven: javax.el:javax.el-api:3.0.0" level="project" />
@@ -107,7 +107,7 @@
     <orderEntry type="library" name="Maven: com.kumuluz.ee.discovery:kumuluzee-discovery-common:1.1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.vdurmont:semver4j:2.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20171018" level="project" />
-    <orderEntry type="module" module-name="comments-models" />
+    <orderEntry type="module" module-name="return_policy-models" />
     <orderEntry type="library" name="Maven: com.kumuluz.ee:kumuluzee-core:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.kumuluz.ee:kumuluzee-jpa-eclipselink:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.kumuluz.ee:kumuluzee-jpa-common:2.4.1" level="project" />

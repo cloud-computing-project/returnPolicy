@@ -9,6 +9,9 @@
         <module name="comments-api" />
         <module name="comments-models" />
         <module name="comments-services" />
+        <module name="return_policy-api" />
+        <module name="return_policy-models" />
+        <module name="return_policy-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +19,10 @@
       <module name="comments-api" target="1.8" />
       <module name="comments-models" target="1.8" />
       <module name="comments-services" target="1.8" />
+      <module name="return_policy" target="1.8" />
+      <module name="return_policy-api" target="1.8" />
+      <module name="return_policy-models" target="1.8" />
+      <module name="return_policy-services" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
