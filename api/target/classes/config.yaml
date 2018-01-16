@@ -1,15 +1,15 @@
 kumuluzee:
-  name: rso-comments
+  name: rso-return_policy
   env:
     name: dev
   version: 1.0.0
   server:
-    base-url: http://localhost:8080
+    base-url: http://localhost:8083
     http:
-      port: 8080
+      port: 8083
   datasources:
-    - jndi-name: jdbc/commentsDS
-      connection-url: jdbc:postgresql://192.168.99.100:5432/comment
+    - jndi-name: jdbc/return_policyDS
+      connection-url: jdbc:postgresql://192.168.99.100:5434/return_policy
       username: dbuser
       password: postgres
       max-pool-size: 20
@@ -22,12 +22,16 @@ kumuluzee:
   health:
       checks:
         data-source-health-check:
-          jndi-name: jdbc/commentsDS
+          jndi-name: jdbc/return_policyDS
   cors-filter:
     servlet:
       allow-origin: "*"
+  metrics:
+    web-instrumentation:
+      - name: return_policy-endpoint
+        url-pattern: /v1/return_policy/*
 rest-properties:
   external-services:
-    order-service:
+    return_policy-service:
       enabled: true
   healthy: true
