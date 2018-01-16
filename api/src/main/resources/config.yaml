@@ -1,0 +1,37 @@
+kumuluzee:
+  name: rso-return_policys
+  env:
+    name: dev
+  version: 1.0.0
+  server:
+    base-url: http://localhost:8083
+    http:
+      port: 8083
+  datasources:
+    - jndi-name: jdbc/return_policysDS
+      connection-url: jdbc:postgresql://192.168.99.100:5434/return_policy
+      username: dbuser
+      password: postgres
+      max-pool-size: 20
+  config:
+    etcd:
+      hosts: http://192.168.99.100:2379
+  discovery:
+    etcd:
+      hosts: http://192.168.99.100:2379
+  health:
+      checks:
+        data-source-health-check:
+          jndi-name: jdbc/return_policysDS
+  cors-filter:
+    servlet:
+      allow-origin: "*"
+  metrics:
+    web-instrumentation:
+      - name: return_policys-endpoint
+        url-pattern: /v1/return_policys/*
+rest-properties:
+  external-services:
+    return_policy-service:
+      enabled: true
+  healthy: true

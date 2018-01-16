@@ -1,0 +1,18 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:9.6.3
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: dbuser
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: return_policy
+  return_policys:
+    image: amela/return_policy
+    ports:
+      - 8083:8083
+    environment:
+      KUMULUZEE_DATASOURCES0_CONNECTIONURL: jdbc:postgresql://postgres:5432/return_policy
+    depends_on:
+      - postgres

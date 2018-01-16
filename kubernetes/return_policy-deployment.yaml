@@ -1,0 +1,36 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: return_policy-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: return_policy
+    spec:
+      containers:
+      - image: amela/return_policy
+        name: return_policy
+        env:
+          - name: KUMULUZEE_DISCOVERY_CLUSTER
+            value: bluemix
+          - name: KUMULUZEE_DISCOVERY_ETCD_HOSTS
+            value: http://etcd:2379
+          - name: KUMULUZEE_CONFIG_ETCD_HOSTS
+            value: http://etcd:2379
+          - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
+            value: jdbc:postgresql://postgres-return_policy:5432/return_policy
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: server
+          initialDelaySeconds: 10
+          periodSeconds: 3
+        ports:
+        - containerPort: 8083
+          name: server
+          protocol: TCP
+        resources:
+          limits:
+            cpu: 500m
