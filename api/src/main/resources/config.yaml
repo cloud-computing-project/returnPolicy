@@ -1,5 +1,5 @@
 kumuluzee:
-  name: rso-return_policys
+  name: rso-return_policy
   env:
     name: dev
   version: 1.0.0
@@ -8,7 +8,7 @@ kumuluzee:
     http:
       port: 8083
   datasources:
-    - jndi-name: jdbc/return_policysDS
+    - jndi-name: jdbc/return_policyDS
       connection-url: jdbc:postgresql://192.168.99.100:5434/return_policy
       username: dbuser
       password: postgres
@@ -22,14 +22,14 @@ kumuluzee:
   health:
       checks:
         data-source-health-check:
-          jndi-name: jdbc/return_policysDS
+          jndi-name: jdbc/return_policyDS
   cors-filter:
     servlet:
       allow-origin: "*"
   metrics:
     web-instrumentation:
-      - name: return_policys-endpoint
-        url-pattern: /v1/return_policys/*
+      - name: return_policy-endpoint
+        url-pattern: /v1/return_policy/*
 rest-properties:
   external-services:
     return_policy-service:

@@ -8,7 +8,7 @@ services:
       POSTGRES_USER: dbuser
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: return_policy
-  return_policys:
+  return_policy:
     image: amela/return_policy
     ports:
       - 8083:8083
