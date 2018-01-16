@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9e7e601-cf14-4b8e-a65f-7cc488b57de9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/resources/ReturnPolicyResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/config/RestProperties.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/resources/ReturnPolicyResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/classes/si/fri/rso/samples/return_policy/models/Return_policy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/return_policy-models-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/return_policy/services/config/RestProperties.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/return_policy-api.iml" afterPath="$PROJECT_DIR$/api/returnPolicy-api.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/ReturnPolicyApplication.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/ReturnPolicyApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/configuration/RestProperties.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/configuration/RestProperties.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/dtos/ApiError.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/dtos/ApiError.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/exceptionmappers/NotFoundExceptionMapper.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/exceptionmappers/NotFoundExceptionMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/health/Return_policyServiceHealthCheck.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/health/ReturnPolicyServiceHealthCheck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/interceptors/LogContextInterceptor.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/interceptors/LogContextInterceptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/producers/JacksonProducer.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/producers/JacksonProducer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/return_policy/api/v1/resources/DemoResource.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/resources/DemoResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/return_policy-models.iml" afterPath="$PROJECT_DIR$/models/returnPolicy-models.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/return_policy/models/Return_policy.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/return_policy.iml" afterPath="$PROJECT_DIR$/returnPolicy.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services/return_policy-services.iml" afterPath="$PROJECT_DIR$/services/returnPolicy-services.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/return_policy/services/ReturnPolicyBean.java" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/ReturnPolicyBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/return_policy/services/producers/PersistenceProducer.java" afterPath="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/producers/PersistenceProducer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/pom.xml" afterPath="$PROJECT_DIR$/api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/resources/config.yaml" afterPath="$PROJECT_DIR$/api/src/main/resources/config.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kubernetes/postgres-return_policy-service.yaml" afterPath="$PROJECT_DIR$/kubernetes/postgres-return_policy-service.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kubernetes/postgres-return_policy.yaml" afterPath="$PROJECT_DIR$/kubernetes/postgres-return_policy.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kubernetes/return_policy-deployment.yaml" afterPath="$PROJECT_DIR$/kubernetes/return_policy-deployment.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kubernetes/return_policy-service.yaml" afterPath="$PROJECT_DIR$/kubernetes/return_policy-service.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/pom.xml" afterPath="$PROJECT_DIR$/models/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-return_policy.sql" afterPath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-return_policy.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/models/target/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/target/classes/sql-scripts/init-return_policy.sql" afterPath="$PROJECT_DIR$/models/target/classes/sql-scripts/init-return_policy.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/pom.xml" afterPath="$PROJECT_DIR$/services/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/models/target/" />
@@ -91,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/resources/DemoResource.java">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -232,13 +189,13 @@
         <option value="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/return_policy/services/config/RestProperties.java" />
         <option value="$PROJECT_DIR$/api/src/main/resources/config.yaml" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/return_policy/models/Return_policy.java" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.idea/.name" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
         <option value="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/ReturnPolicyBean.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/resources/ReturnPolicyResource.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/health/ReturnPolicyServiceHealthCheck.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -644,16 +601,15 @@
       <option name="presentableId" value="Default" />
       <updated>1516126962412</updated>
       <workItem from="1516126967713" duration="110000" />
-      <workItem from="1516127112237" duration="4987000" />
+      <workItem from="1516127112237" duration="5640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5097000" />
+    <option name="totallyTimeSpent" value="5750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -669,7 +625,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -835,7 +791,7 @@
         <state relative-caret-position="-125">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516133495530" expanded="true" signature="66415:66430" ph="..." />
+            <marker date="1516134288533" expanded="true" signature="59810:59825" ph="..." />
           </folding>
         </state>
       </provider>
@@ -868,14 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -992,6 +940,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
