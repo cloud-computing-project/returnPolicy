@@ -6,7 +6,7 @@
 
 
     <groupId>si.fri.rso.samples</groupId>
-    <artifactId>return_policy</artifactId>
+    <artifactId>returnPolicy</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
@@ -102,17 +102,17 @@
             </dependency>
             <dependency>
                 <groupId>si.fri.rso.samples</groupId>
-                <artifactId>return_policy-api</artifactId>
+                <artifactId>returnPolicy-api</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>si.fri.rso.samples</groupId>
-                <artifactId>return_policy-models</artifactId>
+                <artifactId>returnPolicy-models</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>si.fri.rso.samples</groupId>
-                <artifactId>return_policy-services</artifactId>
+                <artifactId>returnPolicy-services</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
         </dependencies>

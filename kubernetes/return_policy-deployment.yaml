@@ -1,17 +1,17 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: return_policy-deployment
+  name: returnPolicy-deployment
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: return_policy
+        app: returnPolicy
     spec:
       containers:
-      - image: amela/return_policy
-        name: return_policy
+      - image: amela/returnPolicy
+        name: returnPolicy
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
             value: bluemix
@@ -20,7 +20,7 @@ spec:
           - name: KUMULUZEE_CONFIG_ETCD_HOSTS
             value: http://etcd:2379
           - name: KUMULUZEE_DATASOURCES0_CONNECTIONURL
-            value: jdbc:postgresql://postgres-return_policy:5432/return_policy
+            value: jdbc:postgresql://postgres-returnPolicy:5432/returnPolicy
         livenessProbe:
           httpGet:
             path: /health

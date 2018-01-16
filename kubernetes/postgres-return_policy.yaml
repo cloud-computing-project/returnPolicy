@@ -1,24 +1,24 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: postgres-return_policy-deployment
+  name: postgres-returnPolicy-deployment
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: postgres-return_policy
+        app: postgres-returnPolicy
     spec:
       containers:
         - image: centos/postgresql-94-centos7
-          name: postgres-return_policy
+          name: postgres-returnPolicy
           env:
             - name: POSTGRESQL_USER
               value: dbuser
             - name: POSTGRESQL_PASSWORD
               value: postgres
             - name: POSTGRESQL_DATABASE
-              value: return_policy
+              value: returnPolicy
           ports:
           - containerPort: 5432
             protocol: TCP

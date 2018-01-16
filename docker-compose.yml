@@ -7,12 +7,12 @@ services:
     environment:
       POSTGRES_USER: dbuser
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: return_policy
-  return_policy:
-    image: amela/return_policy
+      POSTGRES_DB: returnPolicy
+  returnPolicy:
+    image: amela/returnPolicy
     ports:
       - 8083:8083
     environment:
-      KUMULUZEE_DATASOURCES0_CONNECTIONURL: jdbc:postgresql://postgres:5432/return_policy
+      KUMULUZEE_DATASOURCES0_CONNECTIONURL: jdbc:postgresql://postgres:5432/returnPolicy
     depends_on:
       - postgres

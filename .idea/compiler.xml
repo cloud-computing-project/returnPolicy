@@ -12,6 +12,9 @@
         <module name="return_policy-api" />
         <module name="return_policy-models" />
         <module name="return_policy-services" />
+        <module name="returnPolicy-api" />
+        <module name="returnPolicy-models" />
+        <module name="returnPolicy-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +26,9 @@
       <module name="return_policy-api" target="1.8" />
       <module name="return_policy-models" target="1.8" />
       <module name="return_policy-services" target="1.8" />
+      <module name="returnPolicy-api" target="1.8" />
+      <module name="returnPolicy-models" target="1.8" />
+      <module name="returnPolicy-services" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
