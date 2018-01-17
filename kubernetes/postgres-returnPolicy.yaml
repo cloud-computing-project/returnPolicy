@@ -1,17 +1,17 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: postgres-returnPolicy-deployment
+  name: postgres-returnpolicy-deployment
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: postgres-returnPolicy
+        app: postgres-returnpolicy
     spec:
       containers:
         - image: centos/postgresql-94-centos7
-          name: postgres-returnPolicy
+          name: postgres-returnpolicy
           env:
             - name: POSTGRESQL_USER
               value: dbuser
