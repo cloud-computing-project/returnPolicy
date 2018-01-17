@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
     <persistence-unit name="returnPolicy-jpa" transaction-type="RESOURCE_LOCAL">
-        <non-jta-data-source>jdbc/returnPolicyDS</non-jta-data-source>
+        <non-jta-data-source>jdbc/ReturnPolicyDS</non-jta-data-source>
 
-        <class>si.fri.rso.samples.returnPolicy.models.returnPolicy</class>
+        <class>si.fri.rso.samples.returnPolicy.models.ReturnPolicy</class>
 
         <properties>
             <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>

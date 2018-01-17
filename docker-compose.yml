@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: returnPolicy
   returnPolicy:
-    image: amela/returnPolicy
+    image: amela/return_policy
     ports:
       - 8083:8083
     environment:

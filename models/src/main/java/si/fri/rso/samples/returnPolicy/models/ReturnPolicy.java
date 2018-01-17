@@ -3,15 +3,12 @@ package si.fri.rso.samples.returnPolicy.models;
 import org.eclipse.persistence.annotations.UuidGenerator;
 
 import javax.persistence.*;
-import java.util.Date;
 import java.util.List;
 
 @Entity(name = "returnPolicy")
 @NamedQueries(value =
 {
-        @NamedQuery(name = "returnPolicy.getAll", query = "SELECT c FROM returnPolicy c"),
-        @NamedQuery(name = "returnPolicy.findByProduct", query = "SELECT o FROM returnPolicy o WHERE o.productId = " +
-                ":productId")
+    @NamedQuery(name = "ReturnPolicy.getAll", query = "SELECT c FROM returnPolicy c")
 })
 @UuidGenerator(name = "idGenerator")
 public class ReturnPolicy {
@@ -23,7 +20,7 @@ public class ReturnPolicy {
     @Column(name = "contact_seller_within")
     private String contactSellerWithin;
 
-    private Boolean refund;
+    private String refund;
 
     @Column(name = "restocking_fee")
     private String restockingFee;
@@ -47,11 +44,11 @@ public class ReturnPolicy {
         this.contactSellerWithin = contactSellerWithin;
     }
 
-    public Boolean getRefund() {
+    public String getRefund() {
         return refund;
     }
 
-    public void setRefund(Boolean refund) {
+    public void setRefund(String refund) {
         this.refund = refund;
     }
 
@@ -70,6 +67,4 @@ public class ReturnPolicy {
     public void setProductId(String productId) {
         this.productId = productId;
     }
-
-
 }

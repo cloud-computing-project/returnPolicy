@@ -5,7 +5,6 @@ import si.fri.rso.samples.returnPolicy.models.ReturnPolicy;
 import si.fri.rso.samples.returnPolicy.services.ReturnPolicyBean;
 
 import javax.enterprise.context.RequestScoped;
-import org.eclipse.microprofile.metrics.annotation.Metered;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
@@ -29,17 +28,15 @@ public class ReturnPolicyResource {
     protected UriInfo uriInfo;
 
     @GET
-    @Metered
-    public Response getreturnPolicy() {
+    public Response getReturnPolicy() {
 
-        List<ReturnPolicy> returnPolicy = returnPolicyBean.getReturnPolicy(uriInfo);
+        List<ReturnPolicy> returnPolicies = returnPolicyBean.getReturnPolicy(uriInfo);
 
-        return Response.ok(returnPolicy).build();
+        return Response.ok(returnPolicies).build();
     }
 
-
     @GET
-    @Path("{returnPolicyId}")
+    @Path("/{returnPolicyId}")
     public Response getReturnPolicy(@PathParam("returnPolicyId") String returnPolicyId) {
 
         ReturnPolicy returnPolicy = returnPolicyBean.getReturnPolicy(returnPolicyId);
@@ -54,7 +51,7 @@ public class ReturnPolicyResource {
     @POST
     public Response createReturnPolicy(ReturnPolicy returnPolicy) {
 
-        if (returnPolicy.getContactSellerWithin() == null || returnPolicy.getContactSellerWithin().isEmpty()) {
+        if ((returnPolicy.getRefund() == null || returnPolicy.getRefund().isEmpty()) ) {
             return Response.status(Response.Status.BAD_REQUEST).build();
         } else {
             returnPolicy = returnPolicyBean.createReturnPolicy(returnPolicy);

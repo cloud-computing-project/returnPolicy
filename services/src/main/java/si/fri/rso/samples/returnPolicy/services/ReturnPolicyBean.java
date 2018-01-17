@@ -1,21 +1,32 @@
 package si.fri.rso.samples.returnPolicy.services;
 
+import com.kumuluz.ee.logs.LogManager;
+import com.kumuluz.ee.logs.Logger;
 import com.kumuluz.ee.rest.beans.QueryParameters;
 import com.kumuluz.ee.rest.utils.JPAUtils;
 import si.fri.rso.samples.returnPolicy.models.ReturnPolicy;
-
+import si.fri.rso.samples.returnPolicy.services.config.RestProperties;
+import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+import javax.persistence.TypedQuery;
 import javax.ws.rs.NotFoundException;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.core.UriInfo;
 import java.util.List;
+
 
 @ApplicationScoped
 public class ReturnPolicyBean {
 
+    private Logger log = LogManager.getLogger(ReturnPolicyBean.class.getName());
+
     @Inject
     private EntityManager em;
+
+    private Client httpClient;
 
     public List<ReturnPolicy> getReturnPolicy(UriInfo uriInfo) {
 
@@ -31,7 +42,7 @@ public class ReturnPolicyBean {
 
         ReturnPolicy returnPolicy = em.find(ReturnPolicy.class, returnPolicyId);
 
-        if (returnPolicy == null) {
+        if (returnPolicy == null){
             throw new NotFoundException();
         }
 

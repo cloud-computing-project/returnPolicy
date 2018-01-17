@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/returnPolicy.iml" filepath="$PROJECT_DIR$/returnPolicy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manufacturers.iml" filepath="$PROJECT_DIR$/manufacturers.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/returnPolicy-api.iml" filepath="$PROJECT_DIR$/api/returnPolicy-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/models/returnPolicy-models.iml" filepath="$PROJECT_DIR$/models/returnPolicy-models.iml" />
-      <module fileurl="file://$PROJECT_DIR$/services/returnPolicy-services.iml" filepath="$PROJECT_DIR$/services/returnPolicy-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/returnPolicy-service.iml" filepath="$PROJECT_DIR$/services/returnPolicy-service.iml" />
     </modules>
   </component>
 </project>

@@ -1,11 +1,7 @@
 si\fri\rso\samples\returnPolicy\api\v1\producers\JacksonProducer.class
 si\fri\rso\samples\returnPolicy\api\v1\exceptionmappers\NotFoundExceptionMapper.class
-si\fri\rso\samples\returnPolicy\api\v1\health\ReturnPolicyServiceHealthCheck.class
-META-INF\resources\java.lang.Object
 META-INF\services\javax.ws.rs.core.Application
-si\fri\rso\samples\returnPolicy\api\v1\configuration\RestProperties.class
 si\fri\rso\samples\returnPolicy\api\v1\dtos\ApiError.class
+si\fri\rso\samples\returnPolicy\api\v1\interceptors\LogContextInterceptor.class
 si\fri\rso\samples\returnPolicy\api\v1\ReturnPolicyApplication.class
 si\fri\rso\samples\returnPolicy\api\v1\resources\ReturnPolicyResource.class
-si\fri\rso\samples\returnPolicy\api\v1\resources\DemoResource.class
-si\fri\rso\samples\returnPolicy\api\v1\interceptors\LogContextInterceptor.class

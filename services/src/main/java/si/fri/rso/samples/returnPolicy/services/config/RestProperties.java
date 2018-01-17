@@ -9,14 +9,14 @@ import javax.enterprise.context.ApplicationScoped;
 @ConfigBundle("rest-properties")
 public class RestProperties {
 
-    @ConfigValue(value = "external-services.returnPolicy-service.enabled", watch = true)
-    private boolean returnPolicyServiceEnabled;
+    @ConfigValue(value = "external-services.product-service.enabled", watch = true)
+    private boolean productServiceEnabled;
 
-    public boolean isreturnPolicyServiceEnabled() {
-        return returnPolicyServiceEnabled;
+    public boolean isProductServiceEnabled() {
+        return productServiceEnabled;
     }
 
-    public void setreturnPolicyServiceEnabled(boolean returnPolicyServiceEnabled) {
-        this.returnPolicyServiceEnabled = returnPolicyServiceEnabled;
+    public void setProductServiceEnabled(boolean productServiceEnabled) {
+        this.productServiceEnabled = productServiceEnabled;
     }
 }
