@@ -5,6 +5,5 @@ import javax.ws.rs.core.Application;
 import com.kumuluz.ee.discovery.annotations.RegisterService;
 
 @ApplicationPath("/v1")
-@RegisterService
 public class ReturnPolicyApplication extends Application {
 }

@@ -1,6 +1,7 @@
 package si.fri.rso.samples.returnPolicy.models;
 
 import org.eclipse.persistence.annotations.UuidGenerator;
+import si.fri.rso.samples.returnPolicy.models.Product;
 
 import javax.persistence.*;
 import java.util.List;
@@ -25,8 +26,8 @@ public class ReturnPolicy {
     @Column(name = "restocking_fee")
     private String restockingFee;
 
-    @Column(name = "product_id")
-    private String productId;
+    @Transient
+    private List<Product> products;
 
     public String getId() {
         return id;
@@ -60,11 +61,11 @@ public class ReturnPolicy {
         this.restockingFee = restockingFee;
     }
 
-    public String getProductId() {
-        return productId;
+    public List<Product> getProducts() {
+        return products;
     }
 
-    public void setProductId(String productId) {
-        this.productId = productId;
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }
