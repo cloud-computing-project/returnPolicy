@@ -9,9 +9,7 @@ import java.util.List;
 @Entity(name = "returnPolicy")
 @NamedQueries(value =
 {
-    @NamedQuery(name = "ReturnPolicy.getAll", query = "SELECT c FROM returnPolicy c"),
-    @NamedQuery(name = "ReturnPolicy.findByProduct", query = "SELECT o FROM returnPolicy o WHERE o.productId = " +
-        ":productId")
+    @NamedQuery(name = "ReturnPolicy.getAll", query = "SELECT c FROM returnPolicy c")
 })
 @UuidGenerator(name = "idGenerator")
 public class ReturnPolicy {

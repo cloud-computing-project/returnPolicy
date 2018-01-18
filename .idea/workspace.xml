@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd085b5-eeed-454e-abe8-59171fb58cfa" name="Default" comment="changed ports for pg">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/models/target/" />
@@ -65,13 +63,13 @@
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="34" />
+              <caret line="11" column="85" lean-forward="false" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1582#1583#0" expanded="true" />
-                <element signature="e#1613#1614#0" expanded="true" />
-                <element signature="e#1668#1669#0" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1570#1571#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,9 +207,9 @@
         <option value="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/ReturnPolicyBean.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/ReturnPolicyApplication.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Sale.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
       </list>
     </option>
   </component>
@@ -548,7 +546,7 @@
       <updated>1515334679505</updated>
       <workItem from="1515334682099" duration="2071000" />
       <workItem from="1515346617295" duration="5200000" />
-      <workItem from="1516185598655" duration="8882000" />
+      <workItem from="1516185598655" duration="9537000" />
     </task>
     <task id="LOCAL-00001" summary="changed ports">
       <created>1515350141814</created>
@@ -575,7 +573,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16153000" />
+    <option name="totallyTimeSpent" value="16808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -930,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -954,16 +944,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="34" />
+          <caret line="11" column="85" lean-forward="false" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
           </folding>
         </state>
       </provider>
