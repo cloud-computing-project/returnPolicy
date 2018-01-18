@@ -14,7 +14,7 @@ cache:
   - $HOME/.m2
 
 env:
-  - DOCKER_IMAGE=amela/return_policy
+  - DOCKER_IMAGE=amela/return_policy:etcd
 
 script:
   - mvn clean package -U

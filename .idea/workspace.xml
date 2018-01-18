@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcd085b5-eeed-454e-abe8-59171fb58cfa" name="Default" comment="" />
+    <list default="true" id="fcd085b5-eeed-454e-abe8-59171fb58cfa" name="Default" comment="changed ports for pg">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/models/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/services/target/" />
@@ -15,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ReturnPolicyResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/resources/ReturnPolicyResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="returnpolicy-deployment.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kubernetes/returnpolicy-deployment.yaml">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,16 +34,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
               <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postgres-returnpolicy.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kubernetes/postgres-returnpolicy.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -79,27 +61,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReturnPolicy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReturnPolicy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="275">
+              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
+                <element signature="e#1582#1583#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init-returnPolicy.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="173">
+              <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -156,6 +158,8 @@
       <find>product</find>
       <find>http://192.168.99.100:2379</find>
       <find>regist</find>
+      <find>query</find>
+      <find>p</find>
     </findStrings>
     <replaceStrings>
       <replace>5435</replace>
@@ -194,7 +198,6 @@
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/models/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-manufacturers.sql" />
         <option value="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql" />
         <option value="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/resources/ReturnPolicyResource.java" />
@@ -203,11 +206,12 @@
         <option value="$PROJECT_DIR$/kubernetes/postgres-returnpolicy-service.yaml" />
         <option value="$PROJECT_DIR$/kubernetes/postgres-returnpolicy.yaml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
         <option value="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/ReturnPolicyBean.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/ReturnPolicyApplication.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Sale.java" />
+        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
+        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -339,6 +343,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="return_policy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="return_policy" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="return_policy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="return_policy" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql-scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="return_policy" type="b2602c69:ProjectViewProjectNode" />
@@ -527,7 +548,7 @@
       <updated>1515334679505</updated>
       <workItem from="1515334682099" duration="2071000" />
       <workItem from="1515346617295" duration="5200000" />
-      <workItem from="1516185598655" duration="7480000" />
+      <workItem from="1516185598655" duration="8882000" />
     </task>
     <task id="LOCAL-00001" summary="changed ports">
       <created>1515350141814</created>
@@ -554,10 +575,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14751000" />
+    <option name="totallyTimeSpent" value="16153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -573,7 +595,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -813,22 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="86" lean-forward="false" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/config/RestProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -898,20 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/ReturnPolicyBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -940,9 +932,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="173">
+          <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1582#1583#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

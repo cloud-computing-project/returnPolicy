@@ -7,9 +7,9 @@ import java.util.List;
 
 @Entity(name = "products")
 @NamedQueries(value =
-        {
-                @NamedQuery(name = "Product.getAll", query = "SELECT p FROM products p")
-        })
+{
+    @NamedQuery(name = "Product.getAll", query = "SELECT p FROM products p")
+})
 @UuidGenerator(name = "idGenerator")
 public class Product {
 
