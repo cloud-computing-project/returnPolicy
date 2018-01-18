@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcd085b5-eeed-454e-abe8-59171fb58cfa" name="Default" comment="changed ports for pg">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql" afterPath="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
     </list>
     <ignored path="$PROJECT_DIR$/models/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
@@ -62,10 +62,26 @@
       <file leaf-file-name="ReturnPolicy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="25">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1402#1403#0" expanded="true" />
                 <element signature="e#1444#1445#0" expanded="true" />
                 <element signature="e#1475#1476#0" expanded="true" />
                 <element signature="e#1530#1531#0" expanded="true" />
@@ -85,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init-returnPolicy.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="init-returnPolicy.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -95,12 +111,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
-              <folding />
+            <state relative-caret-position="-1500">
+              <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#1924#1925#0" expanded="true" />
+                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#2002#2003#0" expanded="true" />
+                <element signature="e#2062#2063#0" expanded="true" />
+                <element signature="e#2114#2115#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,10 +232,10 @@
         <option value="$PROJECT_DIR$/services/src/main/java/si/fri/rso/samples/returnPolicy/services/ReturnPolicyBean.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/si/fri/rso/samples/returnPolicy/api/v1/ReturnPolicyApplication.java" />
         <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Sale.java" />
-        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
         <option value="$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql" />
+        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java" />
+        <option value="$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java" />
       </list>
     </option>
   </component>
@@ -546,7 +572,7 @@
       <updated>1515334679505</updated>
       <workItem from="1515334682099" duration="2071000" />
       <workItem from="1515346617295" duration="5200000" />
-      <workItem from="1516185598655" duration="9907000" />
+      <workItem from="1516185598655" duration="10207000" />
     </task>
     <task id="LOCAL-00001" summary="changed ports">
       <created>1515350141814</created>
@@ -573,7 +599,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17178000" />
+    <option name="totallyTimeSpent" value="17478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -936,20 +962,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java">
+    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="10" column="76" lean-forward="false" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        <state relative-caret-position="0">
+          <caret line="0" column="110" lean-forward="true" selection-start-line="0" selection-start-column="110" selection-end-line="0" selection-end-column="110" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/ReturnPolicy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="25">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
             <element signature="e#1444#1445#0" expanded="true" />
             <element signature="e#1475#1476#0" expanded="true" />
             <element signature="e#1530#1531#0" expanded="true" />
@@ -958,11 +1000,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/resources/sql-scripts/init-returnPolicy.sql">
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/fri/rso/samples/returnPolicy/models/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="110" lean-forward="true" selection-start-line="0" selection-start-column="110" selection-end-line="0" selection-end-column="110" />
-          <folding />
+        <state relative-caret-position="-1500">
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2114#2115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
